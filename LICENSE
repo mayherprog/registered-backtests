@@ -19,39 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-SCOPE (not part of the MIT License text above)
-
-The MIT License above covers the source code in `code/` only.
-
-Written material (the .md files: registrations, reports, ERRATA, data notes,
-README) is licensed separately under Creative Commons Attribution 4.0
-International. See LICENSE-DOCS.
-
-The contents of `data/` are NOT covered by either license and are not the
-copyright holder's to license. They are third-party market data and calendars,
-included so the results can be reproduced. Provenance for every file is
-documented in DATA_NOTES.md. In summary:
-
-  - Daily and weekly OHLC price files: retrieved from Yahoo Finance's chart API,
-    cross-validated against a broker market-data feed. Subject to that provider's
-    terms of use.
-  - fomc_dates.csv: decision dates transcribed from federalreserve.gov.
-  - cpi_dates.csv: release dates transcribed from bls.gov schedules.
-  - calibration.json: option prices observed on 2026-07-17 via OPRA-sourced
-    quotes, recorded as calibration inputs.
-
-Anyone redistributing this repository is responsible for their own compliance
-with the market data provider's terms.
-
--------------------------------------------------------------------------------
-NOT INVESTMENT ADVICE
-
-This repository is a research study. It is not investment advice, not a
-recommendation to buy, sell, or hold any security, and not an offer of any
-financial product or service. The author is a student, not a licensed financial
-adviser. Simulated results are hypothetical, carry the modelling limitations
-documented in DATA_NOTES.md and ERRATA.md, and do not represent actual trading.
-Past performance does not indicate future results. Anyone acting on anything in
-this repository does so entirely at their own risk.

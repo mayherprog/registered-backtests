@@ -78,7 +78,9 @@ The study's own conclusion is that 35 rulesets failed to beat holding an index f
 
 - **Code** (`code/`): MIT, see [`LICENSE`](LICENSE)
 - **Written material** (the .md files): CC BY 4.0, see [`LICENSE-DOCS`](LICENSE-DOCS)
-- **Data** (`data/`): not mine to license. Third-party market data and public calendars, included so the results can be reproduced. Per-file provenance is in [`DATA_NOTES.md`](DATA_NOTES.md); if you redistribute this repo, the provider's terms are your responsibility.
+- **Data** (`data/`): not mine to license. Third-party market data and public calendars, included so the results can be reproduced.
+
+Full scope, per-file data provenance and the not-advice notice are in [`NOTICE.md`](NOTICE.md).
 
 ## Citation
 
