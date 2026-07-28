@@ -1,0 +1,313 @@
+{
+ "base": {
+  "final": 866.0,
+  "dd": 0.587,
+  "kills": 2,
+  "sortino": -0.09,
+  "n": 291,
+  "avgR": -0.131,
+  "totpnl": -11153
+ },
+ "candidates": [
+  {
+   "name": "C01 stop -60",
+   "cat": "risk",
+   "added_rules": 0,
+   "why": "sensitivity said tighter stops hurt; test looser",
+   "build": {
+    "final": 872.0,
+    "dd": 0.584,
+    "kills": 2,
+    "sortino": -0.091,
+    "n": 286,
+    "avgR": -0.098,
+    "totpnl": -10227
+   }
+  },
+  {
+   "name": "C02 no-invalidation",
+   "cat": "risk",
+   "added_rules": 0,
+   "why": "MA-touch invalidation whipsaws; premium stop only",
+   "build": {
+    "final": 853.0,
+    "dd": 0.606,
+    "kills": 2,
+    "sortino": -0.066,
+    "n": 253,
+    "avgR": -0.131,
+    "totpnl": -9728
+   }
+  },
+  {
+   "name": "C03 vol-scaled size",
+   "cat": "risk",
+   "added_rules": 1,
+   "why": "shrink size when RV63 high; buys premium cheaper risk",
+   "build": {
+    "final": 866.0,
+    "dd": 0.587,
+    "kills": 2,
+    "sortino": -0.09,
+    "n": 291,
+    "avgR": -0.13,
+    "totpnl": -10428
+   }
+  },
+  {
+   "name": "C04 concurrency 2 + sector 1",
+   "cat": "risk",
+   "added_rules": 0,
+   "why": "cut correlated equity beta stacking",
+   "build": {
+    "final": 985.0,
+    "dd": 0.52,
+    "kills": 2,
+    "sortino": -0.082,
+    "n": 225,
+    "avgR": -0.085,
+    "totpnl": -5916
+   }
+  },
+  {
+   "name": "C05 dd throttle 15%",
+   "cat": "risk",
+   "added_rules": 1,
+   "why": "halve size in drawdown, soften kill spiral",
+   "build": {
+    "final": 952.0,
+    "dd": 0.536,
+    "kills": 2,
+    "sortino": -0.079,
+    "n": 291,
+    "avgR": -0.123,
+    "totpnl": -11338
+   }
+  },
+  {
+   "name": "C06 extended blackout",
+   "cat": "risk",
+   "added_rules": 1,
+   "why": "blackout helped; extend to 2 days pre-event",
+   "build": {
+    "final": 828.0,
+    "dd": 0.605,
+    "kills": 2,
+    "sortino": -0.087,
+    "n": 268,
+    "avgR": -0.101,
+    "totpnl": -8614
+   }
+  },
+  {
+   "name": "C07 stop -60 + no-inval",
+   "cat": "risk",
+   "added_rules": 0,
+   "why": "combine the two loosening changes",
+   "build": {
+    "final": 873.0,
+    "dd": 0.643,
+    "kills": 2,
+    "sortino": -0.083,
+    "n": 228,
+    "avgR": -0.083,
+    "totpnl": -6895
+   }
+  },
+  {
+   "name": "C08 take +75%",
+   "cat": "exit",
+   "added_rules": 0,
+   "why": "bank winners earlier, raise win rate",
+   "build": {
+    "final": 866.0,
+    "dd": 0.587,
+    "kills": 2,
+    "sortino": -0.09,
+    "n": 299,
+    "avgR": -0.157,
+    "totpnl": -12836
+   }
+  },
+  {
+   "name": "C09 take +150%",
+   "cat": "exit",
+   "added_rules": 0,
+   "why": "let winners run further",
+   "build": {
+    "final": 771.0,
+    "dd": 0.633,
+    "kills": 2,
+    "sortino": -0.078,
+    "n": 283,
+    "avgR": -0.155,
+    "totpnl": -13345
+   }
+  },
+  {
+   "name": "C10 time stop 25",
+   "cat": "exit",
+   "added_rules": 0,
+   "why": "cut theta bleed on dead trades",
+   "build": {
+    "final": 811.0,
+    "dd": 0.613,
+    "kills": 2,
+    "sortino": -0.086,
+    "n": 297,
+    "avgR": -0.131,
+    "totpnl": -11594
+   }
+  },
+  {
+   "name": "C11 breakeven trail",
+   "cat": "exit",
+   "added_rules": 1,
+   "why": "after +50 pct never give it all back",
+   "build": {
+    "final": 865.0,
+    "dd": 0.587,
+    "kills": 2,
+    "sortino": -0.089,
+    "n": 309,
+    "avgR": -0.11,
+    "totpnl": -10780
+   }
+  },
+  {
+   "name": "C12 no-inval + take +150",
+   "cat": "exit",
+   "added_rules": 0,
+   "why": "loosen exits both directions",
+   "build": {
+    "final": 853.0,
+    "dd": 0.606,
+    "kills": 2,
+    "sortino": -0.066,
+    "n": 242,
+    "avgR": -0.049,
+    "totpnl": -3955
+   }
+  },
+  {
+   "name": "C13 reclaim buffer 1%",
+   "cat": "entry",
+   "added_rules": 0,
+   "why": "avoid entries sitting on the MA",
+   "build": {
+    "final": 972.0,
+    "dd": 0.593,
+    "kills": 2,
+    "sortino": -0.079,
+    "n": 273,
+    "avgR": -0.129,
+    "totpnl": -10389
+   }
+  },
+  {
+   "name": "C14 reclaim hold 3",
+   "cat": "entry",
+   "added_rules": 0,
+   "why": "stronger confirmation",
+   "build": {
+    "final": 969.0,
+    "dd": 0.598,
+    "kills": 2,
+    "sortino": -0.077,
+    "n": 282,
+    "avgR": -0.125,
+    "totpnl": -10926
+   }
+  },
+  {
+   "name": "C15 trend filter MA200",
+   "cat": "entry",
+   "added_rules": 1,
+   "why": "only long above long-term trend (2nd indicator)",
+   "build": {
+    "final": 866.0,
+    "dd": 0.587,
+    "kills": 2,
+    "sortino": -0.09,
+    "n": 231,
+    "avgR": -0.155,
+    "totpnl": -11002
+   }
+  },
+  {
+   "name": "C16 higher-low only",
+   "cat": "entry",
+   "added_rules": 0,
+   "why": "keep only least-bad trigger",
+   "build": {
+    "final": 927.0,
+    "dd": 0.691,
+    "kills": 2,
+    "sortino": -0.097,
+    "n": 171,
+    "avgR": -0.135,
+    "totpnl": -7277
+   }
+  },
+  {
+   "name": "C17 breakout 55d",
+   "cat": "entry",
+   "added_rules": 0,
+   "why": "rarer, stronger XBI breakouts",
+   "build": {
+    "final": 866.0,
+    "dd": 0.587,
+    "kills": 2,
+    "sortino": -0.09,
+    "n": 279,
+    "avgR": -0.108,
+    "totpnl": -8438
+   }
+  },
+  {
+   "name": "C18 C02+C15",
+   "cat": "combo",
+   "added_rules": 1,
+   "why": "best risk + best entry filter",
+   "build": {
+    "final": 853.0,
+    "dd": 0.606,
+    "kills": 2,
+    "sortino": -0.066,
+    "n": 204,
+    "avgR": -0.167,
+    "totpnl": -9921
+   }
+  },
+  {
+   "name": "C19 C02+C03+C15",
+   "cat": "combo",
+   "added_rules": 2,
+   "why": "add vol sizing",
+   "build": {
+    "final": 853.0,
+    "dd": 0.606,
+    "kills": 2,
+    "sortino": -0.066,
+    "n": 204,
+    "avgR": -0.167,
+    "totpnl": -9319
+   }
+  },
+  {
+   "name": "C20 C02+C15+take150",
+   "cat": "combo",
+   "added_rules": 1,
+   "why": "and let winners run",
+   "build": {
+    "final": 853.0,
+    "dd": 0.606,
+    "kills": 2,
+    "sortino": -0.066,
+    "n": 197,
+    "avgR": -0.061,
+    "totpnl": -3628
+   }
+  }
+ ]
+}

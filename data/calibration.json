@@ -1,0 +1,63 @@
+{
+ "asof": "2026-07-17",
+ "riskfree_assumed": 0.04,
+ "vix": 18.77,
+ "quotes": [
+  {
+   "sym": "XBI",
+   "label": "Sep18 160C",
+   "dte": 62,
+   "last": 6.09,
+   "iv": 0.3191,
+   "rv21": 0.2921,
+   "rv63": 0.3029,
+   "iv_over_rv21": 1.092,
+   "iv_over_rv63": 1.054
+  },
+  {
+   "sym": "XBI",
+   "label": "Dec18 160C",
+   "dte": 153,
+   "last": 11.97,
+   "iv": 0.335,
+   "rv21": 0.2921,
+   "rv63": 0.3029,
+   "iv_over_rv21": 1.147,
+   "iv_over_rv63": 1.106
+  },
+  {
+   "sym": "SMH",
+   "label": "Aug21 555C",
+   "dte": 34,
+   "last": 40.15,
+   "iv": 0.5681,
+   "rv21": 0.5716,
+   "rv63": 0.5262,
+   "iv_over_rv21": 0.994,
+   "iv_over_rv63": 1.08
+  },
+  {
+   "sym": "SMH",
+   "label": "Sep18 555C",
+   "dte": 62,
+   "last": 53.57,
+   "iv": 0.56,
+   "rv21": 0.5716,
+   "rv63": 0.5262,
+   "iv_over_rv21": 0.98,
+   "iv_over_rv63": 1.064
+  },
+  {
+   "sym": "SPY",
+   "label": "Sep18 745C",
+   "dte": 62,
+   "last": 19.74,
+   "iv": 0.1478,
+   "rv21": 0.1273,
+   "rv63": 0.1314,
+   "iv_over_rv21": 1.162,
+   "iv_over_rv63": 1.125
+  }
+ ],
+ "note": "last-trade prices Friday 2026-07-17, not mids; OI/spread unverified"
+}

@@ -1,0 +1,10 @@
+{
+ "diagnostic": "core_no_kill_build",
+ "perf": {
+  "final": 2208,
+  "total": 0.38,
+  "cagr": 0.041,
+  "max_dd": 0.383,
+  "sortino": 0.21
+ }
+}

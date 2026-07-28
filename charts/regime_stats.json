@@ -1,0 +1,320 @@
+[
+ {
+  "regime": "2015-2017_chop_grind",
+  "plan": {
+   "final": 943.0,
+   "total_return": -0.551,
+   "cagr": -0.234,
+   "max_dd": 0.613,
+   "trades": 12,
+   "win_rate": 0.25,
+   "avg_pnl": -96.4,
+   "avg_R": -0.44,
+   "ann_vol": 0.529,
+   "sharpe": -0.44,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2015-01-12",
+    "2015-04-30"
+   ],
+   "skipped": {
+    "afford": 14,
+    "concurrency": 54,
+    "blackout": 197,
+    "ivskip": 0,
+    "cooldown": 13,
+    "sector": 0,
+    "daily": 12
+   }
+  },
+  "kill_off": {
+   "final": 185.0,
+   "total_return": -0.912,
+   "cagr": -0.555,
+   "max_dd": 0.912,
+   "trades": 13,
+   "win_rate": 0.154,
+   "avg_pnl": -147.3,
+   "avg_R": -0.6,
+   "ann_vol": 1.016,
+   "sharpe": -0.55,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 946,
+    "concurrency": 0,
+    "blackout": 197,
+    "ivskip": 0,
+    "cooldown": 42,
+    "sector": 0,
+    "daily": 17
+   }
+  },
+  "sessions_to_first_kill": 7
+ },
+ {
+  "regime": "2018_vol_spike",
+  "plan": {
+   "final": 1005.0,
+   "total_return": -0.521,
+   "cagr": -0.523,
+   "max_dd": 0.774,
+   "trades": 12,
+   "win_rate": 0.167,
+   "avg_pnl": -91.2,
+   "avg_R": -0.44,
+   "ann_vol": 0.74,
+   "sharpe": -0.71,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2018-03-23",
+    "2018-05-01"
+   ],
+   "skipped": {
+    "afford": 2,
+    "concurrency": 44,
+    "blackout": 37,
+    "ivskip": 0,
+    "cooldown": 23,
+    "sector": 0,
+    "daily": 21
+   }
+  },
+  "kill_off": {
+   "final": 329.0,
+   "total_return": -0.843,
+   "cagr": -0.845,
+   "max_dd": 0.926,
+   "trades": 17,
+   "win_rate": 0.235,
+   "avg_pnl": -104.2,
+   "avg_R": -0.43,
+   "ann_vol": 1.337,
+   "sharpe": -0.63,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 93,
+    "concurrency": 87,
+    "blackout": 37,
+    "ivskip": 0,
+    "cooldown": 32,
+    "sector": 0,
+    "daily": 25
+   }
+  },
+  "sessions_to_first_kill": 57
+ },
+ {
+  "regime": "2020_crash_recovery",
+  "plan": {
+   "final": 831.0,
+   "total_return": -0.604,
+   "cagr": -0.603,
+   "max_dd": 0.835,
+   "trades": 22,
+   "win_rate": 0.364,
+   "avg_pnl": -57.7,
+   "avg_R": -0.19,
+   "ann_vol": 1.098,
+   "sharpe": -0.55,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2020-09-21",
+    "2020-10-28"
+   ],
+   "skipped": {
+    "afford": 92,
+    "concurrency": 29,
+    "blackout": 64,
+    "ivskip": 0,
+    "cooldown": 49,
+    "sector": 1,
+    "daily": 13
+   }
+  },
+  "kill_off": {
+   "final": 1348.0,
+   "total_return": -0.358,
+   "cagr": -0.357,
+   "max_dd": 0.863,
+   "trades": 30,
+   "win_rate": 0.367,
+   "avg_pnl": -25.1,
+   "avg_R": -0.03,
+   "ann_vol": 1.344,
+   "sharpe": -0.27,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 129,
+    "concurrency": 40,
+    "blackout": 64,
+    "ivskip": 0,
+    "cooldown": 65,
+    "sector": 1,
+    "daily": 16
+   }
+  },
+  "sessions_to_first_kill": 182
+ },
+ {
+  "regime": "2022_bear",
+  "plan": {
+   "final": 948.0,
+   "total_return": -0.549,
+   "cagr": -0.55,
+   "max_dd": 0.549,
+   "trades": 7,
+   "win_rate": 0.143,
+   "avg_pnl": -164.6,
+   "avg_R": -0.49,
+   "ann_vol": 0.465,
+   "sharpe": -1.18,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2022-03-04",
+    "2022-04-11"
+   ],
+   "skipped": {
+    "afford": 50,
+    "concurrency": 0,
+    "blackout": 40,
+    "ivskip": 0,
+    "cooldown": 9,
+    "sector": 0,
+    "daily": 3
+   }
+  },
+  "kill_off": {
+   "final": 400.0,
+   "total_return": -0.809,
+   "cagr": -0.811,
+   "max_dd": 0.809,
+   "trades": 9,
+   "win_rate": 0.111,
+   "avg_pnl": -188.8,
+   "avg_R": -0.6,
+   "ann_vol": 0.647,
+   "sharpe": -1.25,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 215,
+    "concurrency": 0,
+    "blackout": 40,
+    "ivskip": 0,
+    "cooldown": 10,
+    "sector": 0,
+    "daily": 4
+   }
+  },
+  "sessions_to_first_kill": 43
+ },
+ {
+  "regime": "2023-2024_recovery",
+  "plan": {
+   "final": 925.0,
+   "total_return": -0.559,
+   "cagr": -0.337,
+   "max_dd": 0.778,
+   "trades": 29,
+   "win_rate": 0.207,
+   "avg_pnl": -40.5,
+   "avg_R": -0.18,
+   "ann_vol": 0.934,
+   "sharpe": -0.36,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2023-03-10",
+    "2023-10-19"
+   ],
+   "skipped": {
+    "afford": 62,
+    "concurrency": 32,
+    "blackout": 112,
+    "ivskip": 0,
+    "cooldown": 66,
+    "sector": 0,
+    "daily": 13
+   }
+  },
+  "kill_off": {
+   "final": 4462.0,
+   "total_return": 1.125,
+   "cagr": 0.46,
+   "max_dd": 0.82,
+   "trades": 65,
+   "win_rate": 0.323,
+   "avg_pnl": 36.3,
+   "avg_R": 0.11,
+   "ann_vol": 1.18,
+   "sharpe": 0.39,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 251,
+    "concurrency": 44,
+    "blackout": 112,
+    "ivskip": 0,
+    "cooldown": 182,
+    "sector": 0,
+    "daily": 23
+   }
+  },
+  "sessions_to_first_kill": 47
+ },
+ {
+  "regime": "2025-2026_momentum",
+  "plan": {
+   "final": 846.0,
+   "total_return": -0.597,
+   "cagr": -0.448,
+   "max_dd": 0.604,
+   "trades": 6,
+   "win_rate": 0.0,
+   "avg_pnl": -209.0,
+   "avg_R": -0.73,
+   "ann_vol": 0.348,
+   "sharpe": -1.29,
+   "kill_trips": 2,
+   "kill_dates": [
+    "2025-02-24",
+    "2025-03-27"
+   ],
+   "skipped": {
+    "afford": 54,
+    "concurrency": 0,
+    "blackout": 87,
+    "ivskip": 0,
+    "cooldown": 1,
+    "sector": 0,
+    "daily": 1
+   }
+  },
+  "kill_off": {
+   "final": 210.0,
+   "total_return": -0.9,
+   "cagr": -0.778,
+   "max_dd": 0.902,
+   "trades": 9,
+   "win_rate": 0.111,
+   "avg_pnl": -210.0,
+   "avg_R": -0.73,
+   "ann_vol": 1.301,
+   "sharpe": -0.6,
+   "kill_trips": 0,
+   "kill_dates": [],
+   "skipped": {
+    "afford": 408,
+    "concurrency": 0,
+    "blackout": 87,
+    "ivskip": 0,
+    "cooldown": 8,
+    "sector": 0,
+    "daily": 1
+   }
+  },
+  "sessions_to_first_kill": 35
+ }
+]

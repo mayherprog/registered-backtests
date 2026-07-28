@@ -1,0 +1,22 @@
+# Python 3.11 or newer. Developed and re-verified on 3.14.3.
+#
+# The core of this project deliberately has NO third-party dependencies. The
+# backtest engine, the 12 registered strategies, both gates and the full test
+# suite run on the standard library alone:
+#
+#   python3 code/test_engine.py        20 tests, pure stdlib
+#   python3 code/engine.py             options-plan audit
+#   python3 code/strategies.py build   12 strategies, Gate 1 and Gate 2
+#   python3 code/planc.py              Plan C
+#   python3 code/phase2.py             Phase-2 candidate sweep
+#   python3 code/sensitivity.py        parameter sensitivity
+#   python3 code/gate_mc.py            futures gate Monte Carlo
+#
+# Only the two scripts below need anything installed.
+
+# code/regimes.py - regime equity charts written to charts/*.png
+matplotlib>=3.8
+
+# code/forward_tests.py - intraday futures forward tests on the gzipped 1m bars
+numpy>=1.26
+pandas>=2.1

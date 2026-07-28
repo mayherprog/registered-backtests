@@ -1,0 +1,960 @@
+{
+ "bench": {
+  "cagr": 0.1008,
+  "max_dd": 0.3372,
+  "sortino": 0.75,
+  "final_mult": 2.155
+ },
+ "bench_folds": [
+  {
+   "cagr": 0.0651,
+   "max_dd": 0.1302,
+   "sortino": 0.64,
+   "final_mult": 1.134
+  },
+  {
+   "cagr": 0.0739,
+   "max_dd": 0.1935,
+   "sortino": 0.77,
+   "final_mult": 1.153
+  },
+  {
+   "cagr": 0.2449,
+   "max_dd": 0.3372,
+   "sortino": 1.34,
+   "final_mult": 1.551
+  },
+  {
+   "cagr": 0.0334,
+   "max_dd": 0.245,
+   "sortino": 0.24,
+   "final_mult": 1.068
+  }
+ ],
+ "rows": [
+  {
+   "name": "S1 GEM",
+   "freq": 12,
+   "stats": {
+    "cagr": 0.0092,
+    "max_dd": 0.3064,
+    "sortino": 0.09,
+    "final_mult": 1.075
+   },
+   "exposure": 1.0,
+   "folds": [
+    {
+     "sortino": 0.07,
+     "dd": 0.1139,
+     "bench_sortino": 1.24,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "sortino": 0.44,
+     "dd": 0.1353,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": false
+    },
+    {
+     "sortino": 0.21,
+     "dd": 0.2212,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": false
+    },
+    {
+     "sortino": -0.25,
+     "dd": 0.3064,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 0,
+   "folds2": [
+    {
+     "exposure": 1.0,
+     "sortino": 0.07,
+     "dd": 0.1139,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 0.44,
+     "dd": 0.1353,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 0.21,
+     "dd": 0.2212,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": -0.25,
+     "dd": 0.3064,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  },
+  {
+   "name": "S2 GTAA-5",
+   "freq": 12,
+   "stats": {
+    "cagr": 0.0271,
+    "max_dd": 0.1275,
+    "sortino": 0.68,
+    "final_mult": 1.238
+   },
+   "exposure": 0.623,
+   "folds": [
+    {
+     "sortino": -0.59,
+     "dd": 0.0735,
+     "bench_sortino": 1.24,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "sortino": 0.76,
+     "dd": 0.0484,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": false
+    },
+    {
+     "sortino": 3.93,
+     "dd": 0.0366,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": true
+    },
+    {
+     "sortino": -0.2,
+     "dd": 0.1275,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 1,
+   "folds2": [
+    {
+     "exposure": 0.6,
+     "sortino": -0.59,
+     "dd": 0.0735,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.0504,
+     "beats": false
+    },
+    {
+     "exposure": 0.642,
+     "sortino": 0.76,
+     "dd": 0.0484,
+     "bench_sortino": 0.88,
+     "bench_dd": 0.0832,
+     "beats": false
+    },
+    {
+     "exposure": 0.767,
+     "sortino": 3.93,
+     "dd": 0.0366,
+     "bench_sortino": 1.79,
+     "bench_dd": 0.146,
+     "beats": true
+    },
+    {
+     "exposure": 0.483,
+     "sortino": -0.2,
+     "dd": 0.1275,
+     "bench_sortino": 0.1,
+     "bench_dd": 0.1408,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 1
+  },
+  {
+   "name": "S3 RSI-2 SPY",
+   "freq": 252,
+   "stats": {
+    "cagr": 0.0269,
+    "max_dd": 0.1841,
+    "sortino": 0.4,
+    "final_mult": 1.236
+   },
+   "exposure": 0.244,
+   "folds": [
+    {
+     "sortino": 0.94,
+     "dd": 0.1135,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1302,
+     "beats": true
+    },
+    {
+     "sortino": -0.56,
+     "dd": 0.1571,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1935,
+     "beats": false
+    },
+    {
+     "sortino": 0.07,
+     "dd": 0.1446,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.3372,
+     "beats": false
+    },
+    {
+     "sortino": 1.77,
+     "dd": 0.0752,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.245,
+     "beats": true
+    }
+   ],
+   "folds_beaten": 2,
+   "folds2": [
+    {
+     "exposure": 0.268,
+     "sortino": 0.94,
+     "dd": 0.1135,
+     "bench_sortino": 0.8,
+     "bench_dd": 0.0353,
+     "beats": false
+    },
+    {
+     "exposure": 0.293,
+     "sortino": -0.56,
+     "dd": 0.1571,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0599,
+     "beats": false
+    },
+    {
+     "exposure": 0.232,
+     "sortino": 0.07,
+     "dd": 0.1446,
+     "bench_sortino": 1.37,
+     "bench_dd": 0.086,
+     "beats": false
+    },
+    {
+     "exposure": 0.185,
+     "sortino": 1.77,
+     "dd": 0.0752,
+     "bench_sortino": 0.35,
+     "bench_dd": 0.0473,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  },
+  {
+   "name": "S4 IBS QQQ",
+   "freq": 252,
+   "stats": {
+    "cagr": 0.1069,
+    "max_dd": 0.1086,
+    "sortino": 1.55,
+    "final_mult": 2.251
+   },
+   "exposure": 0.242,
+   "folds": [
+    {
+     "sortino": 0.48,
+     "dd": 0.0929,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1302,
+     "beats": false
+    },
+    {
+     "sortino": 1.03,
+     "dd": 0.1086,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1935,
+     "beats": true
+    },
+    {
+     "sortino": 2.66,
+     "dd": 0.071,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.3372,
+     "beats": true
+    },
+    {
+     "sortino": 2.29,
+     "dd": 0.0565,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.245,
+     "beats": true
+    }
+   ],
+   "folds_beaten": 3,
+   "folds2": [
+    {
+     "exposure": 0.264,
+     "sortino": 0.48,
+     "dd": 0.0929,
+     "bench_sortino": 0.8,
+     "bench_dd": 0.0348,
+     "beats": false
+    },
+    {
+     "exposure": 0.273,
+     "sortino": 1.03,
+     "dd": 0.1086,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0559,
+     "beats": false
+    },
+    {
+     "exposure": 0.273,
+     "sortino": 2.66,
+     "dd": 0.071,
+     "bench_sortino": 1.37,
+     "bench_dd": 0.101,
+     "beats": true
+    },
+    {
+     "exposure": 0.157,
+     "sortino": 2.29,
+     "dd": 0.0565,
+     "bench_sortino": 0.35,
+     "bench_dd": 0.0403,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 1
+  },
+  {
+   "name": "S5 Turn-of-month",
+   "freq": 252,
+   "stats": {
+    "cagr": 0.0637,
+    "max_dd": 0.0951,
+    "sortino": 0.9,
+    "final_mult": 1.638
+   },
+   "exposure": 0.334,
+   "folds": [
+    {
+     "sortino": 0.29,
+     "dd": 0.0749,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1302,
+     "beats": false
+    },
+    {
+     "sortino": 0.84,
+     "dd": 0.0951,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1935,
+     "beats": true
+    },
+    {
+     "sortino": 1.47,
+     "dd": 0.0893,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.3372,
+     "beats": true
+    },
+    {
+     "sortino": 0.91,
+     "dd": 0.0655,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.245,
+     "beats": true
+    }
+   ],
+   "folds_beaten": 3,
+   "folds2": [
+    {
+     "exposure": 0.332,
+     "sortino": 0.29,
+     "dd": 0.0749,
+     "bench_sortino": 0.8,
+     "bench_dd": 0.0436,
+     "beats": false
+    },
+    {
+     "exposure": 0.335,
+     "sortino": 0.84,
+     "dd": 0.0951,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0682,
+     "beats": false
+    },
+    {
+     "exposure": 0.333,
+     "sortino": 1.47,
+     "dd": 0.0893,
+     "bench_sortino": 1.37,
+     "bench_dd": 0.1221,
+     "beats": true
+    },
+    {
+     "exposure": 0.334,
+     "sortino": 0.91,
+     "dd": 0.0655,
+     "bench_sortino": 0.33,
+     "bench_dd": 0.0849,
+     "beats": true
+    }
+   ],
+   "folds2_beaten": 2
+  },
+  {
+   "name": "S6 Halloween",
+   "freq": 252,
+   "stats": {
+    "cagr": 0.0465,
+    "max_dd": 0.3372,
+    "sortino": 0.44,
+    "final_mult": 1.438
+   },
+   "exposure": 0.491,
+   "folds": [
+    {
+     "sortino": 0.85,
+     "dd": 0.1299,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1302,
+     "beats": true
+    },
+    {
+     "sortino": 0.09,
+     "dd": 0.2003,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1935,
+     "beats": false
+    },
+    {
+     "sortino": 0.72,
+     "dd": 0.3372,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.3372,
+     "beats": false
+    },
+    {
+     "sortino": 0.16,
+     "dd": 0.1606,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.245,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 1,
+   "folds2": [
+    {
+     "exposure": 0.491,
+     "sortino": 0.85,
+     "dd": 0.1299,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.0641,
+     "beats": false
+    },
+    {
+     "exposure": 0.486,
+     "sortino": 0.09,
+     "dd": 0.2003,
+     "bench_sortino": 0.8,
+     "bench_dd": 0.0979,
+     "beats": false
+    },
+    {
+     "exposure": 0.491,
+     "sortino": 0.72,
+     "dd": 0.3372,
+     "bench_sortino": 1.36,
+     "bench_dd": 0.1767,
+     "beats": false
+    },
+    {
+     "exposure": 0.495,
+     "sortino": 0.16,
+     "dd": 0.1606,
+     "bench_sortino": 0.31,
+     "bench_dd": 0.1249,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  },
+  {
+   "name": "S7 Accel dual mom",
+   "freq": 12,
+   "stats": {
+    "cagr": 0.0549,
+    "max_dd": 0.3693,
+    "sortino": 0.6,
+    "final_mult": 1.527
+   },
+   "exposure": 1.0,
+   "folds": [
+    {
+     "sortino": -0.11,
+     "dd": 0.1127,
+     "bench_sortino": 1.24,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "sortino": 2.13,
+     "dd": 0.0691,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": true
+    },
+    {
+     "sortino": 2.55,
+     "dd": 0.1149,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": true
+    },
+    {
+     "sortino": -0.76,
+     "dd": 0.3693,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 2,
+   "folds2": [
+    {
+     "exposure": 1.0,
+     "sortino": -0.11,
+     "dd": 0.1127,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 2.13,
+     "dd": 0.0691,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": true
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 2.55,
+     "dd": 0.1149,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": true
+    },
+    {
+     "exposure": 1.0,
+     "sortino": -0.76,
+     "dd": 0.3693,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 2
+  },
+  {
+   "name": "S8 VAA-G4",
+   "freq": 12,
+   "stats": {
+    "cagr": 0.047,
+    "max_dd": 0.1737,
+    "sortino": 0.92,
+    "final_mult": 1.438
+   },
+   "exposure": 1.0,
+   "folds": [
+    {
+     "sortino": -0.16,
+     "dd": 0.0745,
+     "bench_sortino": 1.24,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "sortino": 7.5,
+     "dd": 0.0331,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": true
+    },
+    {
+     "sortino": 1.69,
+     "dd": 0.0638,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": true
+    },
+    {
+     "sortino": -1.18,
+     "dd": 0.1737,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 2,
+   "folds2": [
+    {
+     "exposure": 1.0,
+     "sortino": -0.16,
+     "dd": 0.0745,
+     "bench_sortino": 0.81,
+     "bench_dd": 0.0849,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 7.5,
+     "dd": 0.0331,
+     "bench_sortino": 0.78,
+     "bench_dd": 0.1353,
+     "beats": true
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 1.69,
+     "dd": 0.0638,
+     "bench_sortino": 1.64,
+     "bench_dd": 0.1945,
+     "beats": true
+    },
+    {
+     "exposure": 1.0,
+     "sortino": -1.18,
+     "dd": 0.1737,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 2
+  },
+  {
+   "name": "S9 Gayed SSO 40w",
+   "freq": 52,
+   "stats": {
+    "cagr": 0.1247,
+    "max_dd": 0.2952,
+    "sortino": 0.73,
+    "final_mult": 2.573
+   },
+   "exposure": 0.785,
+   "folds": [
+    {
+     "sortino": -0.02,
+     "dd": 0.2541,
+     "bench_sortino": 0.71,
+     "bench_dd": 0.1118,
+     "beats": false
+    },
+    {
+     "sortino": 0.53,
+     "dd": 0.2783,
+     "bench_sortino": 0.62,
+     "bench_dd": 0.1708,
+     "beats": false
+    },
+    {
+     "sortino": 1.4,
+     "dd": 0.2512,
+     "bench_sortino": 1.43,
+     "bench_dd": 0.3183,
+     "beats": false
+    },
+    {
+     "sortino": 0.64,
+     "dd": 0.2281,
+     "bench_sortino": 0.13,
+     "bench_dd": 0.2393,
+     "beats": true
+    }
+   ],
+   "folds_beaten": 1,
+   "folds2": [
+    {
+     "exposure": 0.79,
+     "sortino": -0.02,
+     "dd": 0.2541,
+     "bench_sortino": 0.72,
+     "bench_dd": 0.0881,
+     "beats": false
+    },
+    {
+     "exposure": 0.933,
+     "sortino": 0.53,
+     "dd": 0.2783,
+     "bench_sortino": 0.62,
+     "bench_dd": 0.1599,
+     "beats": false
+    },
+    {
+     "exposure": 0.81,
+     "sortino": 1.4,
+     "dd": 0.2512,
+     "bench_sortino": 1.44,
+     "bench_dd": 0.2638,
+     "beats": false
+    },
+    {
+     "exposure": 0.606,
+     "sortino": 0.64,
+     "dd": 0.2281,
+     "bench_sortino": 0.18,
+     "bench_dd": 0.1484,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  },
+  {
+   "name": "S10 HFEA",
+   "freq": 52,
+   "stats": {
+    "cagr": 0.0764,
+    "max_dd": 0.6745,
+    "sortino": 0.34,
+    "final_mult": 1.808
+   },
+   "exposure": 1.0,
+   "folds": [
+    {
+     "sortino": 0.37,
+     "dd": 0.2243,
+     "bench_sortino": 0.71,
+     "bench_dd": 0.1118,
+     "beats": false
+    },
+    {
+     "sortino": 0.49,
+     "dd": 0.2721,
+     "bench_sortino": 0.62,
+     "bench_dd": 0.1708,
+     "beats": false
+    },
+    {
+     "sortino": 2.41,
+     "dd": 0.3379,
+     "bench_sortino": 1.43,
+     "bench_dd": 0.3183,
+     "beats": false
+    },
+    {
+     "sortino": -1.01,
+     "dd": 0.6745,
+     "bench_sortino": 0.13,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 0,
+   "folds2": [
+    {
+     "exposure": 1.0,
+     "sortino": 0.37,
+     "dd": 0.2243,
+     "bench_sortino": 0.71,
+     "bench_dd": 0.1118,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 0.49,
+     "dd": 0.2721,
+     "bench_sortino": 0.62,
+     "bench_dd": 0.1708,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": 2.41,
+     "dd": 0.3379,
+     "bench_sortino": 1.43,
+     "bench_dd": 0.3183,
+     "beats": false
+    },
+    {
+     "exposure": 1.0,
+     "sortino": -1.01,
+     "dd": 0.6745,
+     "bench_sortino": 0.13,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  },
+  {
+   "name": "S11 Vol-managed SPY",
+   "freq": 252,
+   "stats": {
+    "cagr": 0.0803,
+    "max_dd": 0.2558,
+    "sortino": 0.78,
+    "final_mult": 1.854
+   },
+   "exposure": 0.875,
+   "folds": [
+    {
+     "sortino": 0.51,
+     "dd": 0.1191,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1302,
+     "beats": false
+    },
+    {
+     "sortino": 1.01,
+     "dd": 0.1727,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1935,
+     "beats": true
+    },
+    {
+     "sortino": 1.12,
+     "dd": 0.2558,
+     "bench_sortino": 1.34,
+     "bench_dd": 0.3372,
+     "beats": false
+    },
+    {
+     "sortino": 0.53,
+     "dd": 0.1913,
+     "bench_sortino": 0.24,
+     "bench_dd": 0.245,
+     "beats": true
+    }
+   ],
+   "folds_beaten": 2,
+   "folds2": [
+    {
+     "exposure": 0.921,
+     "sortino": 0.51,
+     "dd": 0.1191,
+     "bench_sortino": 0.65,
+     "bench_dd": 0.12,
+     "beats": false
+    },
+    {
+     "exposure": 0.943,
+     "sortino": 1.01,
+     "dd": 0.1727,
+     "bench_sortino": 0.77,
+     "bench_dd": 0.1833,
+     "beats": true
+    },
+    {
+     "exposure": 0.815,
+     "sortino": 1.12,
+     "dd": 0.2558,
+     "bench_sortino": 1.35,
+     "bench_dd": 0.2814,
+     "beats": false
+    },
+    {
+     "exposure": 0.821,
+     "sortino": 0.53,
+     "dd": 0.1913,
+     "bench_sortino": 0.27,
+     "bench_dd": 0.2034,
+     "beats": true
+    }
+   ],
+   "folds2_beaten": 2
+  },
+  {
+   "name": "S12 BTC 40w trend",
+   "freq": 52,
+   "stats": {
+    "cagr": 0.8553,
+    "max_dd": 0.6396,
+    "sortino": 2.39,
+    "final_mult": 82.24
+   },
+   "exposure": 0.655,
+   "folds": [
+    {
+     "sortino": 5.72,
+     "dd": 0.2501,
+     "bench_sortino": 0.71,
+     "bench_dd": 0.1118,
+     "beats": false
+    },
+    {
+     "sortino": 3.84,
+     "dd": 0.6396,
+     "bench_sortino": 0.62,
+     "bench_dd": 0.1708,
+     "beats": false
+    },
+    {
+     "sortino": 3.18,
+     "dd": 0.4889,
+     "bench_sortino": 1.43,
+     "bench_dd": 0.3183,
+     "beats": false
+    },
+    {
+     "sortino": -0.1,
+     "dd": 0.4973,
+     "bench_sortino": 0.13,
+     "bench_dd": 0.2393,
+     "beats": false
+    }
+   ],
+   "folds_beaten": 0,
+   "folds2": [
+    {
+     "exposure": 1.0,
+     "sortino": 5.72,
+     "dd": 0.2501,
+     "bench_sortino": 0.99,
+     "bench_dd": 0.1044,
+     "beats": false
+    },
+    {
+     "exposure": 0.673,
+     "sortino": 3.84,
+     "dd": 0.6396,
+     "bench_sortino": 0.64,
+     "bench_dd": 0.1169,
+     "beats": false
+    },
+    {
+     "exposure": 0.667,
+     "sortino": 3.18,
+     "dd": 0.4889,
+     "bench_sortino": 1.4,
+     "bench_dd": 0.2212,
+     "beats": false
+    },
+    {
+     "exposure": 0.433,
+     "sortino": -0.1,
+     "dd": 0.4973,
+     "bench_sortino": 0.29,
+     "bench_dd": 0.107,
+     "beats": false
+    }
+   ],
+   "folds2_beaten": 0
+  }
+ ]
+}

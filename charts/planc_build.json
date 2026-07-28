@@ -1,0 +1,112 @@
+{
+ "A_core": {
+  "final": 2430,
+  "total": 0.519,
+  "cagr": 0.054,
+  "max_dd": 0.413,
+  "sortino": 0.31
+ },
+ "core_kills": [
+  "2015-08-31",
+  "2015-09-25",
+  "2018-12-04",
+  "2019-06-03",
+  "2020-03-09",
+  "2022-01-25",
+  "2022-11-03"
+ ],
+ "switches": 118,
+ "SAT": {
+  "final": 45,
+  "total": -0.909,
+  "cagr": -0.259,
+  "max_dd": 0.961,
+  "sortino": -0.27
+ },
+ "sat_trades": [
+  {
+   "sym": "XBI",
+   "entry": "2015-02-10",
+   "exit": "2015-02-25",
+   "pnl": 347.7,
+   "reason": "target"
+  },
+  {
+   "sym": "XBI",
+   "entry": "2015-02-27",
+   "exit": "2015-04-13",
+   "pnl": 72.43,
+   "reason": "time"
+  },
+  {
+   "sym": "IWM",
+   "entry": "2015-04-14",
+   "exit": "2015-04-30",
+   "pnl": -207.85,
+   "reason": "stop"
+  },
+  {
+   "sym": "SMH",
+   "entry": "2015-05-01",
+   "exit": "2015-06-15",
+   "pnl": -29.17,
+   "reason": "time"
+  },
+  {
+   "sym": "XBI",
+   "entry": "2015-06-19",
+   "exit": "2015-08-03",
+   "pnl": -162.29,
+   "reason": "time"
+  },
+  {
+   "sym": "IWM",
+   "entry": "2015-08-04",
+   "exit": "2015-08-19",
+   "pnl": -151.45,
+   "reason": "stop"
+  },
+  {
+   "sym": "QQQ",
+   "entry": "2015-08-20",
+   "exit": "2015-08-21",
+   "pnl": -161.11,
+   "reason": "stop"
+  },
+  {
+   "sym": "SMH",
+   "entry": "2015-12-04",
+   "exit": "2015-12-18",
+   "pnl": -65.5,
+   "reason": "stop"
+  },
+  {
+   "sym": "SMH",
+   "entry": "2015-12-22",
+   "exit": "2016-01-06",
+   "pnl": -58.98,
+   "reason": "stop"
+  },
+  {
+   "sym": "SMH",
+   "entry": "2016-06-08",
+   "exit": "2016-06-17",
+   "pnl": -38.31,
+   "reason": "stop"
+  }
+ ],
+ "C_combined": {
+  "final": 2476,
+  "total": 0.179,
+  "cagr": 0.021,
+  "max_dd": 0.597,
+  "sortino": 0.1
+ },
+ "SPY_bench": {
+  "final": 4504,
+  "total": 1.145,
+  "cagr": 0.1,
+  "max_dd": 0.337,
+  "sortino": 0.64
+ }
+}

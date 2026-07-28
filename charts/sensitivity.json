@@ -1,0 +1,152 @@
+[
+ {
+  "n": 382,
+  "avg_R": -0.099,
+  "total_pnl": -10621,
+  "win": 0.272,
+  "plan_final": 866.0,
+  "plan_dd": 0.587,
+  "plan_kills": 2,
+  "variant": "BASE (plan as written)"
+ },
+ {
+  "n": 413,
+  "avg_R": -0.153,
+  "total_pnl": -12428,
+  "win": 0.245,
+  "plan_final": 933.0,
+  "plan_dd": 0.554,
+  "plan_kills": 2,
+  "variant": "stop -35%"
+ },
+ {
+  "n": 401,
+  "avg_R": -0.143,
+  "total_pnl": -12926,
+  "win": 0.249,
+  "plan_final": 937.0,
+  "plan_dd": 0.552,
+  "plan_kills": 2,
+  "variant": "stop -40%"
+ },
+ {
+  "n": 374,
+  "avg_R": -0.077,
+  "total_pnl": -10225,
+  "win": 0.283,
+  "plan_final": 872.0,
+  "plan_dd": 0.584,
+  "plan_kills": 2,
+  "variant": "stop -60%"
+ },
+ {
+  "n": 332,
+  "avg_R": -0.084,
+  "total_pnl": -8024,
+  "win": 0.34,
+  "plan_final": 853.0,
+  "plan_dd": 0.606,
+  "plan_kills": 2,
+  "variant": "no invalidation exit (stop only)"
+ },
+ {
+  "n": 314,
+  "avg_R": -0.073,
+  "total_pnl": -6493,
+  "win": 0.271,
+  "plan_final": 906.0,
+  "plan_dd": 0.558,
+  "plan_kills": 2,
+  "variant": "concurrency 2"
+ },
+ {
+  "n": 423,
+  "avg_R": -0.086,
+  "total_pnl": -9980,
+  "win": 0.277,
+  "plan_final": 866.0,
+  "plan_dd": 0.587,
+  "plan_kills": 2,
+  "variant": "concurrency 4"
+ },
+ {
+  "n": 384,
+  "avg_R": -0.098,
+  "total_pnl": -8991,
+  "win": 0.276,
+  "plan_final": 837.0,
+  "plan_dd": 0.592,
+  "plan_kills": 2,
+  "variant": "fixed $500 size"
+ },
+ {
+  "n": 417,
+  "avg_R": -0.128,
+  "total_pnl": -15652,
+  "win": 0.264,
+  "plan_final": 780.0,
+  "plan_dd": 0.62,
+  "plan_kills": 2,
+  "variant": "blackout off"
+ },
+ {
+  "n": 382,
+  "avg_R": -0.097,
+  "total_pnl": -9707,
+  "win": 0.275,
+  "plan_final": 837.0,
+  "plan_dd": 0.592,
+  "plan_kills": 2,
+  "variant": "IV filter off"
+ },
+ {
+  "n": 280,
+  "avg_R": -0.133,
+  "total_pnl": -10317,
+  "win": 0.243,
+  "plan_final": 873.0,
+  "plan_dd": 0.625,
+  "plan_kills": 2,
+  "variant": "IV filter skip (not halve)"
+ },
+ {
+  "n": 417,
+  "avg_R": 0.026,
+  "total_pnl": 1632,
+  "win": 0.309,
+  "plan_final": 725.0,
+  "plan_dd": 0.64,
+  "plan_kills": 2,
+  "variant": "[pricing] vol_mult 0.95"
+ },
+ {
+  "n": 333,
+  "avg_R": -0.159,
+  "total_pnl": -14450,
+  "win": 0.249,
+  "plan_final": 803.0,
+  "plan_dd": 0.608,
+  "plan_kills": 2,
+  "variant": "[pricing] vol_mult 1.25"
+ },
+ {
+  "n": 382,
+  "avg_R": -0.001,
+  "total_pnl": -603,
+  "win": 0.275,
+  "plan_final": 802.0,
+  "plan_dd": 0.638,
+  "plan_kills": 2,
+  "variant": "[cost] zero spread"
+ },
+ {
+  "n": 382,
+  "avg_R": -0.192,
+  "total_pnl": -20639,
+  "win": 0.262,
+  "plan_final": 832.0,
+  "plan_dd": 0.611,
+  "plan_kills": 2,
+  "variant": "[cost] 5% half-spread"
+ }
+]

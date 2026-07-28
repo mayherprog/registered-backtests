@@ -1,0 +1,22 @@
+{
+ "finalist": "C12 no-inval + take +150",
+ "folds_won": 2,
+ "valid_base": {
+  "final": 925.0,
+  "dd": 0.778,
+  "kills": 2,
+  "sortino": -0.236,
+  "n": 98,
+  "avgR": 0.051,
+  "totpnl": 1567
+ },
+ "valid_c12": {
+  "final": 968.0,
+  "dd": 0.886,
+  "kills": 2,
+  "sortino": -0.316,
+  "n": 74,
+  "avgR": 0.058,
+  "totpnl": 1697
+ }
+}
