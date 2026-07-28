@@ -4,7 +4,7 @@ A pre-registered replication study of 12 published trading strategies, run by a 
 
 **Headline result: nothing survives once capital exposure is controlled for.** Across 35 rulesets tested against a bar registered before any simulation ran, two strategies cleared the original bar and neither survived a follow-up control. The held-out validation window (2023-2026) has never been opened by this study. I kept my passive portfolio.
 
-**This repo was revised on 2026-07-28 after a code review found six defects, one of which changed a headline conclusion.** That review, what it broke, and what it did not, is in [`ERRATA.md`](ERRATA.md). If you only read one file, read that one.
+**This repo was revised on 2026-07-28 after a code review found seven defects, three of them material, one of which changed a headline conclusion.** That review, what it broke, and what it did not, is in [`ERRATA.md`](ERRATA.md). If you only read one file, read that one.
 
 If a study that corrects itself in public sounds more interesting than one that doesn't, this repo is for you.
 

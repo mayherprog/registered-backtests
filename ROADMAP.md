@@ -4,7 +4,7 @@
 - [x] Registration doc (2026-07-18, before any simulation)
 - [x] Build-window run + report (2026-07-18)
 - [x] Import simulation code
-- [x] Code review: six defects found, two material (2026-07-28, see ERRATA.md)
+- [x] Code review: seven defects found, three material (2026-07-28, see ERRATA.md)
 - [x] Gate 2 registered before computation, run, reported (2026-07-28)
 - [x] Holdout decision written down (holdout_decision.md)
 - [x] Reproducibility pass: requirements.txt, one-command re-run, 20-test suite
