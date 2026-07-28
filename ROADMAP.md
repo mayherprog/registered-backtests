@@ -8,7 +8,7 @@
 - [x] Gate 2 registered before computation, run, reported (2026-07-28)
 - [x] Holdout decision written down (holdout_decision.md)
 - [x] Reproducibility pass: requirements.txt, one-command re-run, 20-test suite
-- [ ] License + citation file
+- [x] License + citation file (MIT for code, CC BY 4.0 for docs, CITATION.cff)
 
 ## August 2026
 - [ ] Forward paper-tracking of S4 (IBS), S8 (VAA-G4), S11 (vol-managed SPY): automated daily/weekly signal computation through the existing brief pipeline, results committed on a fixed schedule, no discretion

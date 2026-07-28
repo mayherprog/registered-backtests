@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Registered Backtests: a pre-registered replication of 12 published trading strategies"
+message: "If you reference this study, please cite it and note the version, since ERRATA.md records that one headline conclusion changed after review."
+type: dataset
+authors:
+  - family-names: Adil
+    given-names: Mayher
+    affiliation: Connecticut College
+repository-code: "https://github.com/mayherprog/registered-backtests"
+abstract: >-
+  A pre-registered replication study of twelve published trading strategies
+  against SPY buy-and-hold, using a build window of 2015-2022 split into four
+  two-year folds and a held-out validation window of 2023-2026. Rules, costs,
+  data approximations and the pass criterion were registered before any
+  simulation was run. Two strategies clear the original registered gate; neither
+  survives a second gate, registered before computation, that matches the
+  benchmark to each strategy's own capital exposure. A code review documented in
+  ERRATA.md found seven defects, three material, including one in the Sortino
+  denominator that had suppressed the two passes and one incorrect claim about
+  the held-out data.
+keywords:
+  - pre-registration
+  - backtesting
+  - replication
+  - quantitative finance
+  - reproducibility
+  - null results
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+date-released: "2026-07-28"

@@ -1,0 +1,49 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Mayher Adil
+
+The written material in this repository is licensed under the Creative Commons
+Attribution 4.0 International License.
+
+This covers the Markdown documents:
+
+  README.md, ROADMAP.md, ERRATA.md, DATA_NOTES.md,
+  strategies_registration.md, gate2_registration.md, strategies_report.md,
+  holdout_decision.md, phase1_report.md, candidates.md, sensitivity.md,
+  planc_report.md
+
+It does NOT cover the source code in `code/`, which is under the MIT License
+(see LICENSE), and it does NOT cover the contents of `data/`, which are
+third-party market data not owned by the copyright holder (see the SCOPE
+section of LICENSE).
+
+You are free to:
+
+  Share   - copy and redistribute the material in any medium or format
+  Adapt   - remix, transform, and build upon the material for any purpose,
+            including commercially
+
+Under the following term:
+
+  Attribution - You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+
+Suggested attribution:
+
+  Adil, M. (2026). Registered Backtests: a pre-registered replication of 12
+  published trading strategies. Licensed under CC BY 4.0.
+
+The full legal text of this license is at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+and a plain-language summary at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+Note on the results themselves: facts and data are not copyrightable, so the
+numerical findings in these documents may be cited freely regardless of this
+license. Attribution is requested for the same reason it is requested of any
+research: so that a reader can check the method, including ERRATA.md.

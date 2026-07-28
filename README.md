@@ -68,6 +68,27 @@ This is a clean repository. The work was done in a private one, and the git hist
 
 Index-level P/L: no tracking error, no taxes, fills at close on signal bars, some strategies simulated at weekly granularity (registered up front). The options-audit component prices contracts from a calibrated Black-Scholes model because historical implied-volatility surfaces are paywalled, carrying an estimated 10-20% uncertainty documented in `DATA_NOTES.md`. Real results would be modestly worse than shown. The caveats section of the report is not fine print, it is part of the result.
 
+## Not investment advice
+
+This is a research study, not advice, not a recommendation to trade anything, and not an offer of any financial product. I'm a student, not a licensed adviser. Every result here is simulated, carries the modelling limits documented in [`DATA_NOTES.md`](DATA_NOTES.md) and [`ERRATA.md`](ERRATA.md), and is not actual trading. Past performance says nothing about future results.
+
+The study's own conclusion is that 35 rulesets failed to beat holding an index fund. Read it as a reason to be skeptical of strategies, including any you find here.
+
+## License
+
+- **Code** (`code/`): MIT, see [`LICENSE`](LICENSE)
+- **Written material** (the .md files): CC BY 4.0, see [`LICENSE-DOCS`](LICENSE-DOCS)
+- **Data** (`data/`): not mine to license. Third-party market data and public calendars, included so the results can be reproduced. Per-file provenance is in [`DATA_NOTES.md`](DATA_NOTES.md); if you redistribute this repo, the provider's terms are your responsibility.
+
+## Citation
+
+```
+Adil, M. (2026). Registered Backtests: a pre-registered replication of 12
+published trading strategies. https://github.com/mayherprog/registered-backtests
+```
+
+Please cite the version, since [`ERRATA.md`](ERRATA.md) records that one headline conclusion changed after review.
+
 ## Author
 
 Mayher Adil, Connecticut College '29. I trade a small live commodities and FX account under written risk rules. This study is why the core of my portfolio is a passive index fund.
