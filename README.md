@@ -64,6 +64,10 @@ Only `code/regimes.py` needs anything installed; see [`requirements.txt`](requir
 
 This is a clean repository. The work was done in a private one, and the git history there is what establishes that the Gate 2 registration was committed before Gate 2 was computed. That ordering is load-bearing for the claim, and reconstructing a fake commit history here to imitate it would have been worse than saying this plainly.
 
+## Limitations of this registration
+
+This repository cannot prove its own ordering. Every commit here is dated 2026-07-28: the registration documents and the results they govern were published together, after the work had concluded, so nothing in this public git history establishes that the rules preceded the results. The private repository's history does, but you cannot inspect it, and a claim you cannot inspect deserves a discount. No external timestamp evidence is offered because none exists here to offer. Future registrations will be pushed and tagged in public before any result is run, so that the record carries the ordering instead of my word.
+
 ## Caveats
 
 Index-level P/L: no tracking error, no taxes, fills at close on signal bars, some strategies simulated at weekly granularity (registered up front). The options-audit component prices contracts from a calibrated Black-Scholes model because historical implied-volatility surfaces are paywalled, carrying an estimated 10-20% uncertainty documented in `DATA_NOTES.md`. Real results would be modestly worse than shown. The caveats section of the report is not fine print, it is part of the result.
